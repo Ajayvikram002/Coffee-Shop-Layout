@@ -1,0 +1,92 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: ;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "jost", sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(./assets/img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.menu-links{
+    display: flex;
+    gap: 40px;
+}
+.menu-links a {
+    color: #fff;
+}
+
+.menu-links a:hover{
+    color: brown;
+}
+
+.logo:hover{
+    color: #fff;
+    
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.hero .content{
+    color: #fff;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero .content h1{
+    font-size: 3rem;
+    max-width: 600px;
+}
+.hero .content p{
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.hero .content button{
+    background: #fff;
+    outline: none;
+    margin-top: 38px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.hero .content button:hover{
+    background: brown;
+    color: white
+}
